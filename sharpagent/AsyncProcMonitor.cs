@@ -313,10 +313,10 @@ namespace sharpagent
                 x_UnitIn = (_UnitIn - UnitIn) / span;
                 x_UnitOut = (_UnitOut - UnitOut) / span;
 
-                x_ValueIn  = _x_ValueIn * 0.8 + x_ValueIn * 0.2;
-                x_ValueOut = _x_ValueOut * 0.8 + x_ValueOut * 0.2;
-                x_UnitIn   = _x_UnitIn * 0.8 + x_UnitIn * 0.2;
-                x_UnitOut  = _x_UnitOut * 0.8 + x_UnitOut * 0.2;
+                x_ValueIn  = _x_ValueIn * 0.5 + x_ValueIn * 0.5;
+                x_ValueOut = _x_ValueOut * 0.5 + x_ValueOut * 0.5;
+                x_UnitIn   = _x_UnitIn * 0.5 + x_UnitIn * 0.5;
+                x_UnitOut  = _x_UnitOut * 0.5 + x_UnitOut * 0.5;
 
                 _x_ValueIn  = x_ValueIn;
                 _x_ValueOut = x_ValueOut;
